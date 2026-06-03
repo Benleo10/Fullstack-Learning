@@ -1,0 +1,47 @@
+.Main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+.Box{
+    width: 20vw;
+    height: 30vh;
+    font-size: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.Sub1{
+    background-color: red;
+    position: absolute;
+    top: 30vh;
+    left: 4vw;
+}
+
+.Sub2{
+    background-color: green;
+    position: absolute;
+    top: 30vh;
+    left: 28vw;
+}
+
+.Sub3{
+    background-color: rgb(14, 131, 199);
+    position: absolute;
+    top: 30vh;
+    right: 28vw;
+}
+
+.Sub4{
+    background-color: yellow;
+    position: absolute;
+    top: 30vh;
+    right: 4vw;
+}
+
