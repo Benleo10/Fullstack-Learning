@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+.Main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left,deeppink, pink);
+    position: relative;
+}
+
+.One{
+    width: 45vw;
+    height: 60vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/419/298/non_2x/beauty-abstract-pink-background-free-vector.jpg);
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.Two{
+    width: 35vw;
+    height: 60vh;
+    background-color: white;
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+.Two Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: large;
+    color: firebrick;
+}
+
+
+input{
+    width: 20vw;
+    height: 2vh;
+    border-radius: 10px;
+}
+
+button{
+    width: 10vw;
+    height: 3vh;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+img{
+    width: 45vw;
+    height: 60vh;
+}
+
+.Welcome h1,h6{
+    width: 45vw;
+    height: 60vh;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
