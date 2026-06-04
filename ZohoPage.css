@@ -49,34 +49,37 @@
 
 .Main:hover .Sub1{
     border: 10px solid red;
-    background-color: white;
+    background-color: rgb(255, 255, 255,0);
     color: red;
     top: 35vh;
-    transform: rotate(25deg);
+    left: 8vw;
+    transform: rotate(15deg);
 }
 
 .Main:hover .Sub2{
     border: 10px solid green;
-    background-color: white;
+    background-color: rgb(255, 255, 255,0);
     color: green;
     top: 30vh;
-    transform: rotate(25deg);
+    transform: rotate(-15deg);
 }
 
 .Main:hover .Sub3{
     border: 10px solid rgb(14, 131, 199);
-    background-color: white;
+    background-color: rgb(255, 255, 255,0);
     color: rgb(14, 131, 199);
     top: 35vh;
-    transform: rotate(25deg);
+    right: 30vw;
+    transform: rotate(15deg);
 }
 
 .Main:hover .Sub4{
     border: 10px solid yellow;
-    background-color: white;
+    background-color: rgb(255, 255, 255,0);
     color: yellow;
     top: 30vh;
-    transform: rotate(25deg);
+    right: 9vw;
+    transform: rotate(-15deg);
 }
 
 .Main2{
