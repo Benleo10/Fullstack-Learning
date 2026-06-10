@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+.Main1{
+    height: 10vh;
+    width: 100vw;
+    background-color: brown;
+    position:relative;
+}
+.Main2{
+    height: 80vh;
+    width: 100vw;
+    background-color: #222;
+    position: relative;
+}
+.Main3{
+    height: 10vh;
+    width: 100vw;
+    background-color: brown;
+    position: relative;
+}
+.Main1 h1{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 20%;
+    font-size: x-large;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.Main2 img{
+    width: 100%;
+    height:100%;
+}
+.Main21 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: x-large;
+}
+.Main22{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+.Main22 button{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    background-color: #222;
+    color: aliceblue;
+}
+.Main23{
+    position: absolute;
+    top: 100px;
+    left: 900px;
+}
+.Main23 #img2{
+    height: 500px;
+    width: 450px;
+    border-radius: 250px;
+
+} 
+.Main3 h1{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    font-size: x-large;
+    color: aliceblue;
+    transform: translate(-50%,-50%);
+}
