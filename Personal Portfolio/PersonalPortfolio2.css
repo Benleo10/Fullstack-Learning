@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+.Main1{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: grey
+}
+.Main2{
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(173, 23, 23);
+}
+.Main3{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+.Main11{
+    margin: 0px;
+}
+.Main11 h1{
+    position: absolute;
+    left: 20vw;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+    transition: transform(-50%,-50%);
+}
+.Main21{
+    margin: 0px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    font-size: x-large;
+    color: aliceblue;
+}
+#ig1{
+    width: 100%;
+    height: 100%;
+}
+
+
+
