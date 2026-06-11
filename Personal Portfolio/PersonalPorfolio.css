@@ -71,3 +71,11 @@ body{
     color: aliceblue;
     transform: translate(-50%,-50%);
 }
+.Main24{
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    color: white;
+    font-size: x-large;
+    display: none;
+}
