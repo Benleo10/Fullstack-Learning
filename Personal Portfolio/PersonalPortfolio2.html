@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="StyleSheet" href="PersonalPortfolio2.css">
     </head>
-    <body>
+        <body>
         <div class="Main1">
             <div class="Main11">
                 <h1>BENHUR LEO CHARLES</h1>
@@ -16,16 +16,60 @@
             <img src="https://images.unsplash.com/photo-1614851099511-773084f6911d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwZ3JhZGllbnR8ZW58MHx8MHx8fDA%3D" alt="img1" id="ig1">
            
             <div class="Main21">
-                <h1>Hi there!</h1>
-                <h1>This is Benhur Leo Charles</h1>
-                <h1>Software Developer</h1>
+                <h1 id="h1">Hi there!</h1>
+                <h1 id="h2">This is Benhur Leo Charles</h1>
+                <h1 id="h3">Software Developer</h1>
             </div>
             <div class="Main22">
-                 </div>
+                <button id="b1">About</button>
+            </div>
+            <div class="Main23" id="visible">
+                <img src="https://i.pinimg.com/736x/29/33/a3/2933a37e611bfbf9bee98adfab3de58f.jpg" alt="img2" id="ig2">
+            </div>
+            <div class="Main24" id="aboutInfo">
+                <h1>This is hidden</h1>
+                <h1>Appear only when event occurs</h1>
+            </div>>
+            <div class="Main25" id="contactForm">
+                <form onSubmit="setValue()">
+                    <label>Name</label><br><br>
+                    <input id="t1" type="text" placeholder="Name"><br><br>
+                    <label>Email</label><br><br>
+                    <input id="t2" type="text" placeholder="Email"><br><br>
+                    <label>Phone Number</label><br><br>
+                    <input id="t3" type="number" placeholder="Phone"><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+                
 
         </div>
         <div class="Main3">
 
         </div>
+        <script>
+        document.getElementById('b1').onclick=function(){
+            document.getElementById("h1").innerHTML="Junior Developer";
+            document.getElementById("h2").innerHTML="Intern ay Novitech";
+            document.getElementById("h3").innerHTML="BE Gratudate";
+            document.getElementById("visible").style.display='none';
+            document.getElementById("aboutInfo").style.display='block';
+            document.getElementById("contactForm").style.display='block';
+        }
+
+        function setValue(){
+            let userName = document.getElementById('t1').value;
+            let userEmail = document.getElementById('t2').value;
+            let userPhone = document.getElementById('t3').value;
+            
+            localStorage.setItem("userName", userName);
+            localStorage.setItem("userEmail", userEmail);
+            localStorage.setItem("userPhone", userPhone);
+
+            alert("Form Submitted");
+            return true;
+        }
+    </script>
+
     </body>
 </html>

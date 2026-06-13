@@ -38,9 +38,57 @@ body{
     color: aliceblue;
 }
 #ig1{
+    position: absolute;
     width: 100%;
     height: 100%;
 }
+.Main22{
+    position: absolute;
+    top: 55vh;
+    left: 10vw;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color:darksalmon;
+    font-size: large;
+}
 
+    
+
+#ig2{
+    position:absolute;
+    height: 40vh;
+    right: 30vw;
+    top: 20vh;
+    border-radius: 60px;
+}
+
+.Main24{
+    position: absolute;
+    height: 40vh;
+    right: 30vw;
+    top: 60vh;
+    color: white;
+    display: none;
+}
+.Main25{
+    position: absolute;
+    height: 40vh;
+    right: 40vw;
+    top: 10vh;
+    display: none;
+    color: azure;
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Main25 input{
+    width: 15vw;
+    height: 3vh;
+    border-radius: 5px;
+ }
 
 
