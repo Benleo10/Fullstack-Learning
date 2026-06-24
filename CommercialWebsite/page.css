@@ -62,8 +62,16 @@ body{
     bottom: 15vh;
 }
 
-
+.Main2{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
 .Main2 video{
+    position:absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
