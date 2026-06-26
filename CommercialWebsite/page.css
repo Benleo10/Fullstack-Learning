@@ -1,6 +1,5 @@
 body{
     margin:0px;
-    padding:0px;
 }
 .Main1{
     width: 100vw;
@@ -77,4 +76,59 @@ body{
     height: 100vh;
     object-fit: cover;
 }
+.Main3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 60, 23);
+    position: relative;
+}
+.sub1{
+    background-color: brown;
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+}
+.sub2{
+    background-color: aqua;
+    position: absolute;
+    right: 0vw;
+    top: 0vh;
+}
+.sub3{
+    background-color: blueviolet;
+    position: absolute;
+    left: 0vw;
+    top: 50vh;
+}
+.sub4{
+    background-color: black;
+    position: absolute;
+    right: 0vw;
+    top: 50vh;
+}
+.Box5{
+    width: 50vw;
+    height: 50vh;
+    overflow: hidden;
+}
+.Box5 img{
+    width: 50vw;;
+    height: 50vh;
+    object-fit: cover;
+    transition: all 2s ease-in-out;
+
+}
+.Box5 img:hover{
+    transform: scale3d(1.2,1.2,1.5);
+}
+.Main4{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 0.5vh;
+    font-size: 10px;
+}
+
 
