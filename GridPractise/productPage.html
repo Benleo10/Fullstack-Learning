@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .Grid{
+            display:grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr;
+            gap: 20px;
+            height: 100vh;
+            background-color: cornflowerblue;
+        }
+        .Box{
+            background-color: tomato;
+            border-radius: 50px;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <div class="Grid">
+        <div class="Box b1">
+            <img src="" alt="Image1">
+        </div>
+        <div class="Box b2">
+            <img src="" alt="Image2">
+        </div>
+        <div class="Box b3"></div>
+        <div class="Box b4"></div>
+        <div class="Box b5"></div>
+    </div>
 </body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
 </html>

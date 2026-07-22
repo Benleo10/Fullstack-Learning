@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Personal Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .main1{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to right, rgb(127, 127, 213), rgb(134, 168, 175));
+            position: relative;
+        }
+        .container1{
+            width: 40vw;
+            height: 50vh;
+            border-radius: 10%;
+            position: absolute;
+            top: 25vh;
+            left: 10vw;
+        }
+        .container1 img{
+            width: 100%;
+            height: 100%;
+            border-radius: 30%;
+            object-fit: cover;
+        }
+
+        .container2{
+            width: 40vw;
+            height: 60vh;
+            background-color: aliceblue;
+            border-radius: 10%;
+            position: absolute;
+            top: 20vh;
+            right: 5vw;
+        }
+        .container2 p{
+            padding: 20px;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container3 td{
+            padding-left: 50px;
+            left: 45vw;
+            background-color: rgb(33, 29, 92);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 70vw;
+        }
+        .AboutButton{
+            width: 7vw;
+            height: 5vh;
+            color: white;
+            background-color: brown;
+            position: absolute;
+            top: 85vh;
+            left: 70vw;
+            border-radius: 10px;
+            box-shadow: 5px 5px black;
+        }
+        .btn-group{
+            width: 800px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+            
+   
+    <div class="main1">
+        <nav class="navbar bg-dark border-bottom border-body justify-content-center" data-bs-theme="dark">
+            <!-- Navbar content -->
+             <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-primary">Home</button>
+                <button type="button" class="btn btn-outline-primary">Projects</button>
+                <button type="button" class="btn btn-outline-primary">Skills</button>
+                <button type="button" class="btn btn-outline-primary">About Me</button>
+                <button type="button" class="btn btn-outline-primary">Contact</button>
+            </div>
+        </nav>
+        <div class="container1">
+            <img src="https://media.wired.com/photos/63b8d0a771c6b526845f15a6/master/w_1600%2Cc_limit/CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.jpg" alt="Profile pic">
+        </div>
+        <div class="container2">
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos minus fuga dolorem, illum omnis vero aspernatur? Quibusdam consequatur, deserunt ad officiis molestiae, reprehenderit qui consectetur ex numquam, quos tempore amet.</p>
+        </div>
+       
+        <div class="container4">
+            <button class="AboutButton" onclick="window.location.href=`AboutMe.html`">About Me</button>
+        </div>
+    </div>
+     
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
